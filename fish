@@ -162,7 +162,7 @@ def leaderboard():
         textSize(24)
         for i in range(len(total_games)):
             text("Game " + str(total_games[i])+ "            Score " + str(game_scores[i]), 280, word_height)
-                word_height += 20
+            word_height += 20
             
         draw_button("BACK", 525, 350, 110, 70, (239, 201, 239))
         
